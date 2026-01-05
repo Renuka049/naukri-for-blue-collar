@@ -56,24 +56,6 @@ npm run preview
   - `jobdata/`
     - `jobs-data.jsx` (mock jobs)
   - `pages/`
-    - `header.jsx`
-
-## Deployment
-
-Recommended: Vercel (automatic Vite support) or Netlify.
-
-Vercel quick deploy:
-
-1. Push this repo to GitHub.
-2. Import the repository in Vercel and accept the defaults.
-3. Build command: `npm run build`, Output directory: `dist`.
-
-Or use the Vercel CLI from this project folder:
-
-```bash
-npm i -g vercel
-vercel --prod
-```
 
 ## Approach summary
 
@@ -93,14 +75,5 @@ What I'm proud of
 - Clear, focused UX optimized for quick actions
 - Small, maintainable codebase with straightforward component boundaries
 
-## Next steps
-
-- Add OTP verification for real apply flows
-- Add audio/read-aloud and additional regional languages
-- Add a tiny backend to persist applications and employer data
-
----
-
-If you want, I can add a Vercel setup file or help push and deploy the repository.
 
 
