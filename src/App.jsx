@@ -1,7 +1,7 @@
 import React from 'react'
 import JobList from './container/job-list'
 import JobDetails from './container/job-details'
-import Header from './pages/Header'
+import Header from './pages/header'
 
 function App() {
   return (
